@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" width="490" height="420">
+<rect width="100%" height="100%" fill="none"/>
+<style>.mono{font-family:SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;font-size:14.5px;white-space:pre;}.label{fill:#58a6ff;}.val{fill:#c9d1d9;}.dim{fill:#6e7681;}.cursor{fill:#c9d1d9;}</style>
+<text class="mono label" x="22" y="30" opacity="0">MShoaibRajput@github<animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.28s" fill="freeze"/></text>
+<text class="mono dim" x="22" y="57" opacity="0">--------------------<animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="88" opacity="0">Name:<animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="88" opacity="0">Muhammad Shoaib<animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="115" opacity="0">Role:<animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="115" opacity="0">AI/ML Engineer · Full-Stack Developer<animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="142" opacity="0">Focus:<animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="142" opacity="0">Application Dev · Computer Engineering<animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="169" opacity="0">Stack:<animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="169" opacity="0">NestJS · PostgreSQL/Prisma · Redis · Socket.io<animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="196" opacity="0">Frontend:<animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="196" opacity="0">React · Next.js<animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="223" opacity="0">Cloud:<animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="223" opacity="0">AWS (Lambda, S3, API Gateway, Amplify)<animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="250" opacity="0">AI/CV:<animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="250" opacity="0">Python · Computer Vision · YOLOv8<animate attributeName="opacity" from="0" to="1" begin="1.25s" dur="0.28s" fill="freeze"/></text>
+<text class="mono label" x="22" y="277" opacity="0">Approach:<animate attributeName="opacity" from="0" to="1" begin="1.30s" dur="0.28s" fill="freeze"/></text>
+<text class="mono val" x="130" y="277" opacity="0">Vibe coder — build fast, iterate faster<animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.28s" fill="freeze"/></text>
+<rect x="22" y="310" width="14" height="14" rx="2" fill="#58a6ff" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.28s" fill="freeze"/></rect>
+<rect x="42" y="310" width="14" height="14" rx="2" fill="#3fb950" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.28s" fill="freeze"/></rect>
+<rect x="62" y="310" width="14" height="14" rx="2" fill="#d29922" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.28s" fill="freeze"/></rect>
+<rect x="82" y="310" width="14" height="14" rx="2" fill="#f85149" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.28s" fill="freeze"/></rect>
+<rect x="102" y="310" width="14" height="14" rx="2" fill="#c9d1d9" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.28s" fill="freeze"/></rect>
+<rect x="122" y="310" width="14" height="14" rx="2" fill="#6e7681" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.28s" fill="freeze"/></rect>
+</svg>

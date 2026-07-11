@@ -1,0 +1,7 @@
+# Local-only deps for generating the portrait (background removal + contrast).
+# The daily GitHub Action only needs scripts/requirements.txt.
+pillow
+numpy
+opencv-python-headless
+rembg
+onnxruntime

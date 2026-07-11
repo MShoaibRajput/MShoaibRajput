@@ -1,0 +1,4 @@
+# fetch_contributions.py uses only the Python standard library
+# (urllib, re, json, datetime) — nothing to install. This file is kept
+# so the workflow's `pip install -r` step is a no-op rather than an error
+# if you later add dependencies (e.g. requests) to the scraper.
