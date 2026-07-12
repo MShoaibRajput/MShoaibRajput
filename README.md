@@ -18,4 +18,32 @@
 <!-- animated contribution graph, refreshed daily by the workflow -->
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
 
+<br><br>
+
+## 🚀 Featured Projects
+
 </div>
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### [Foodie-App](https://github.com/MShoaibRajput/Foodie-App)
+A full-stack food ordering platform where a restaurant owner manages multiple restaurants and menus, while users can browse, cart, and place orders with Pakistan-specific payment options.
+
+| Layer | Tech |
+|---|---|
+| Frontend | React 18, Vite, Tailwind CSS, Three.js, Framer Motion, Zustand |
+| Backend | Node.js, Express.js |
+| Database | MongoDB (Mongoose) |
+| Auth | JWT + bcryptjs |
+| HTTP | Axios |
+
+</td>
+</tr>
+</table>
+
+<!--
+  To add another project, copy the <tr>...</tr> block above and edit it.
+  Keep one project per <tr> so they stack cleanly.
+-->
