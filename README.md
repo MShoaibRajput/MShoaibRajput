@@ -41,6 +41,22 @@ A full-stack food ordering platform where a restaurant owner manages multiple re
 
 </td>
 </tr>
+<tr>
+<td width="100%" valign="top">
+
+### [Facial-Recognition-Criminal-Detection-System](https://github.com/MShoaibRajput/Facial-Recognition-Criminal-Detection-System)
+A real-time face recognition system that detects criminals from live camera feeds and alerts authorities, built with Django.
+
+| Layer | Tech |
+|---|---|
+| Backend | Django 4.2, Django REST Framework, JWT Auth |
+| AI/CV | face-recognition, OpenCV, dlib, NumPy |
+| Database | MySQL |
+| Task Queue | Celery + Redis |
+| Other | python-dotenv, Pillow, WhiteNoise, CORS headers |
+
+</td>
+</tr>
 </table>
 
 <!--
