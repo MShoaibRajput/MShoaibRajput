@@ -24,12 +24,14 @@ def fetch_html(url):
 def parse_days(html):
     # Each calendar cell looks like:
     # data-date="2025-07-06" id="contribution-day-component-0-0" data-level="0"
-    # Tooltips (separate <tool-tip> elements) hold the human count string,
-    # keyed by for="contribution-day-component-W-D". We just need the level
-    # for coloring; count is parsed from the tooltip if present.
     day_re = re.compile(r'data-date="(\d{4}-\d{2}-\d{2})"\s+id="([\w-]+)"\s+data-level="(\d)"')
+
+    # Tooltips look like (NOTE: several attributes sit between for="ID" and
+    # the closing ">", so the regex must not assume for="ID"> directly):
+    # <tool-tip ... for="contribution-day-component-0-0" popover="manual" ...>No contributions on July 27th.
+    # <tool-tip ... for="contribution-day-component-3-2" popover="manual" ...>5 contributions on...
     tooltip_re = re.compile(
-        r'for="([\w-]+)">\s*([\d,]+|No)\s+contribution', re.IGNORECASE
+        r'for="([\w-]+)"[^>]*>\s*([\d,]+|No)\s+contribution', re.IGNORECASE
     )
 
     days = {}
@@ -45,13 +47,12 @@ def parse_days(html):
     ordered = sorted(days.values(), key=lambda d: d["date"])
     for d in ordered:
         if d["count"] is None:
-            d["count"] = d["level"]  # fallback estimate
+            d["count"] = d["level"]  # fallback estimate if tooltip somehow missing
     return ordered
 
 
 def compute_streaks(days):
     total = sum(d["count"] for d in days)
-    cur = 0
     longest = 0
     running = 0
     today = date.today()
@@ -61,7 +62,7 @@ def compute_streaks(days):
             longest = max(longest, running)
         else:
             running = 0
-    # current streak: walk backwards from most recent day with data
+    cur = 0
     for d in reversed(days):
         if d["count"] > 0:
             cur += 1
