@@ -1,47 +1,12 @@
 {
   "username": "MShoaibRajput",
-  "generated": "2026-10-17T07:50:46.281077Z",
+  "generated": "2026-10-18T08:04:58.437755Z",
   "stats": {
     "total": 30,
     "longest_streak": 4,
     "current_streak": 0
   },
   "days": [
-    {
-      "date": "2025-10-12",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-13",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-14",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-15",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-16",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-17",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-18",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-10-19",
       "level": 0,
@@ -1859,6 +1824,11 @@
     },
     {
       "date": "2026-10-17",
+      "level": 0,
+      "count": 0
+    },
+    {
+      "date": "2026-10-18",
       "level": 0,
       "count": 0
     }
